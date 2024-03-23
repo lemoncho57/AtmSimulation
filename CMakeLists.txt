@@ -3,6 +3,6 @@ project(AtmSimulation)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(AtmSimulation main.cpp
+add_executable(AtmSimulation src/main.cpp
         src/account.h
         src/account.cpp)

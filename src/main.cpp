@@ -1,7 +1,6 @@
 #include <iostream>
-#include <stdlib.h>
 
-#include "src/account.h"
+#include "account.h"
 
 int main() {
     Account account1 = Account("Dobri");
@@ -120,6 +119,7 @@ int main() {
         std::cout << "Do you want to make a transaction again? (0=no 1=yes) \n";
         std::cin >> runAgain;
         system("cls");
+
 
         accountChoice = 0;
 
