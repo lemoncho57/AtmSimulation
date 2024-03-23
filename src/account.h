@@ -13,10 +13,10 @@ public:
     void withdraw(float amount);
     void deposit(float amount);
     void transferFundsTo(float amount, Account accountToTransferTo);
-    float getBalance();
     void displayBalance();
     std::string name;
 private:
+    float getBalance();
     float balance = 50.0f;
     const float fee = 0.5f;
 };

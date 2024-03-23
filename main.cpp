@@ -26,6 +26,7 @@ int main() {
             std::cout << "Type 1 to withdraw funds from your account \n";
             std::cout << "Type 2 to deposit funds to your account \n";
             std::cout << "Type 3 to transfer to another account \n";
+            std::cout << "Type 4 to view your balance \n";
             std::cin >> choise;
             switch (choise) {
 
@@ -53,6 +54,10 @@ int main() {
                     }
                     amount = 0;
                     break;
+
+                case 4:
+                    account1.displayBalance();
+
                 default:
                     std::cout << "Incorrect option! \n";
                 break;
@@ -69,6 +74,7 @@ int main() {
             std::cout << "Type 1 to withdraw funds from your account \n";
             std::cout << "Type 2 to deposit funds to your account \n";
             std::cout << "Type 3 to transfer to another account \n";
+            std::cout << "Type 4 to view your balance \n";
             std::cin >> choise;
             switch (choise) {
 
@@ -96,6 +102,9 @@ int main() {
                     }
                     amount = 0;
                     break;
+
+                case 4:
+                    account2.displayBalance();
 
                 default:
                     std::cout << "Incorrect option! \n";
