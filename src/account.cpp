@@ -9,7 +9,7 @@ void Account::withdraw(float amount) {
         std::cout << "You don't have enough funds in your balance! \n";
 
     else if (balance > 0 || amount <= balance) {
-        balance -= fee * amount;
+        balance -= amount;
         std::cout << "You've succesfully withdrawed " << amount << " levs from your account! \n";
         std::cout << "You now have " << balance << " levs in your account! \n";
     }

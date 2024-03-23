@@ -11,6 +11,6 @@
 -- Check for working CXX compiler: C:/Users/Dobri/AppData/Local/Programs/CLion Nova/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (2.4s)
+-- Configuring done (2.2s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/Dobri/CLionProjects/AtmSimulation/cmake-build-release-mingw

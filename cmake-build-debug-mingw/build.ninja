@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/Dobri/CLionProjects/AtmSimulation/cmake-build-de
 
 build cmake_object_order_depends_target_AtmSimulation: phony || CMakeFiles/AtmSimulation.dir
 
-build CMakeFiles/AtmSimulation.dir/main.cpp.obj: CXX_COMPILER__AtmSimulation_unscanned_Debug C$:/Users/Dobri/CLionProjects/AtmSimulation/main.cpp || cmake_object_order_depends_target_AtmSimulation
-  DEP_FILE = CMakeFiles\AtmSimulation.dir\main.cpp.obj.d
+build CMakeFiles/AtmSimulation.dir/src/main.cpp.obj: CXX_COMPILER__AtmSimulation_unscanned_Debug C$:/Users/Dobri/CLionProjects/AtmSimulation/src/main.cpp || cmake_object_order_depends_target_AtmSimulation
+  DEP_FILE = CMakeFiles\AtmSimulation.dir\src\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\AtmSimulation.dir
-  OBJECT_FILE_DIR = CMakeFiles\AtmSimulation.dir
+  OBJECT_FILE_DIR = CMakeFiles\AtmSimulation.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\AtmSimulation.dir\
   TARGET_PDB = AtmSimulation.pdb
 
@@ -73,7 +73,7 @@ build CMakeFiles/AtmSimulation.dir/src/account.cpp.obj: CXX_COMPILER__AtmSimulat
 #############################################
 # Link the executable AtmSimulation.exe
 
-build AtmSimulation.exe: CXX_EXECUTABLE_LINKER__AtmSimulation_Debug CMakeFiles/AtmSimulation.dir/main.cpp.obj CMakeFiles/AtmSimulation.dir/src/account.cpp.obj
+build AtmSimulation.exe: CXX_EXECUTABLE_LINKER__AtmSimulation_Debug CMakeFiles/AtmSimulation.dir/src/main.cpp.obj CMakeFiles/AtmSimulation.dir/src/account.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AtmSimulation.dir

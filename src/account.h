@@ -18,5 +18,4 @@ public:
 private:
     float getBalance();
     float balance = 50.0f;
-    const float fee = 0.5f;
 };
