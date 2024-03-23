@@ -12,7 +12,7 @@ public:
     explicit Account(std::string accName);
     void withdraw(float amount);
     void deposit(float amount);
-    void transferFundsTo(float amount, Account accountToTransferTo);
+    static void transferFundsTo(float amount, Account accountToTransferTo, Account fromAccount);
     void displayBalance();
     std::string name;
 private:

@@ -21,9 +21,9 @@ void Account::deposit(float amount) {
     std::cout << "You now have " << balance << " levs in your account! \n";
 }
 
-void Account::transferFundsTo(float amount, Account accountToTransferTo) {
+void Account::transferFundsTo(float amount, Account accountToTransferTo, Account fromAccount) {
+    fromAccount.balance -= amount;
     accountToTransferTo.balance += amount;
-    balance -= amount;
 
     std::cout << "You've succesfully transfered " << amount << " levs to " << accountToTransferTo.name << " ! \n";
 
