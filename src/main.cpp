@@ -49,7 +49,7 @@ int main() {
                     if (account == account1.name)
                         std::cout << "You can't transfer funds to yourself \n";
                     else if (account == account2.name) {
-                        Account::transferFundsTo(amount, account2, account1);
+                        Account::transferFundsTo(amount, &account2, &account1);
                     }
                     amount = 0;
                     break;
@@ -97,7 +97,7 @@ int main() {
                     if (account == account2.name)
                         std::cout << "You can't transfer funds to yourself \n";
                     else if (account == account1.name) {
-                        Account::transferFundsTo(amount, account1, account2);
+                        Account::transferFundsTo(amount, &account1, &account2);
                     }
                     amount = 0;
                     break;
