@@ -113,6 +113,7 @@ int main() {
 
         if (accountChoice >= 3) {
             std::cout << "Incorrect option! \n";
+
             return 0;
         }
 

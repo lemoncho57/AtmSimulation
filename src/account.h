@@ -3,8 +3,6 @@
 //
 #ifndef ATM_H
 #define ATM_H
-
-#endif //ATM_H
 #include <iostream>
 
 class Account {
@@ -19,3 +17,4 @@ private:
     float getBalance();
     float balance = 50.0f;
 };
+#endif //ATM_H
